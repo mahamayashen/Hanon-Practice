@@ -21,6 +21,7 @@ class Solution:
 ```
 
 ## [707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
+
 ```python
 class DoubleLinkedList:
     def __init__(self, val=0, next=None, prev=None):
@@ -99,6 +100,7 @@ class MyLinkedList:
         self.size -= 1
 ```
 ## [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+![reverse linkedlist](resources/reverse%20linkedlist.gif)
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -107,12 +109,12 @@ class MyLinkedList:
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        prev = None
-        curr = head
-        while curr:
-            next_temp = curr.next  # Save next node
-            curr.next = prev       # Reverse the link
-            prev = curr            # Move prev forward
-            curr = next_temp       # Move curr forward
-        return prev
+        pre = None
+        cur = head
+        while cur:
+            temp = cur.next     # Save next node
+            cur.next = pre      # Reverse the link
+            pre = cur           # Move pre forward
+            cur = temp          # Move cur forward
+        return pre
 ```
