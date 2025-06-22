@@ -20,6 +20,7 @@ class Solution:
         """
         s[:] = reversed(s)
 ```
+About `reverse()`and`[::-1]`, here is [an article](https://www.geeksforgeeks.org/python/python-reversed-vs-1-which-one-is-faster/) talking about which one is more efficient.
 
 ## [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/)
 ```python
