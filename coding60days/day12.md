@@ -209,3 +209,27 @@ class Solution:
         
         return res
 ```
+
+## [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+```python
+class Solution:
+    def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        if not root:
+            return []
+        q = deque([root])
+        ans = []
+
+        while q:
+            level = []
+            for _ in range(len(q)):
+                node = q.popleft()
+                level.append(node.val)
+                if node.left: q.append(node.left)
+                if node.right: q.append(node.right)
+            if len(ans) % 2 == 0:
+                ans.append(level)
+            else:
+                ans.append(level[::-1])
+
+        return ans
+```
