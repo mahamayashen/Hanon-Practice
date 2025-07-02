@@ -1,4 +1,3 @@
-# Day 6 Hash Table I
 ## [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 ```python
 # Use Dictionary

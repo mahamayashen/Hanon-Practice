@@ -1,5 +1,3 @@
-# Day 10 Stack & Queue I
-
 #### [Introduction to `deque()` from Real Python](https://realpython.com/python-deque/)
 ## [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 ```python

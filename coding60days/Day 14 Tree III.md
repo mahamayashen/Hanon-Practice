@@ -1,5 +1,3 @@
-# Day 14 Tree III
-
 ## [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 [灵神解法](https://www.bilibili.com/video/BV18M411z7bb?vd_source=e492103ac776ad055e020b9f09bc74ac&spm_id_from=333.788.videopod.sections)
 ```python

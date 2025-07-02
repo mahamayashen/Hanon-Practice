@@ -1,4 +1,3 @@
-# Day 9 String II
 ## [151. Reverse Words in a String]()
 ```python
 class Solution:

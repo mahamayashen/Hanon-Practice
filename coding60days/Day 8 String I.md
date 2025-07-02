@@ -1,4 +1,3 @@
-# Day 8 String I
 ## [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 ```python
 class Solution:

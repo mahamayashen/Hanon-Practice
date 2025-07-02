@@ -1,4 +1,3 @@
-# Day 3 LinkedList I
 ## [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 ```python
 # Definition for singly-linked list.
@@ -100,7 +99,7 @@ class MyLinkedList:
         self.size -= 1
 ```
 ## [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-![reverse linkedlist](resources/reverse%20linkedlist.gif)
+![reverse linkedlist](reverse%20linkedlist.gif)
 ```python
 # Definition for singly-linked list.
 # class ListNode:

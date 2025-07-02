@@ -1,5 +1,3 @@
-# Day 12 Tree II
-
 ## [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 [卡哥的视频](https://www.bilibili.com/video/BV1sP4y1f7q7/?vd_source=e492103ac776ad055e020b9f09bc74ac)把递归的方法讲得特别好<br>
 [文字版参考](https://programmercarl.com/0226.%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91.html#%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%80%E8%AF%BE)

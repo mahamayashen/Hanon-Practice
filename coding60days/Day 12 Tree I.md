@@ -1,4 +1,3 @@
-# Day 12 Tree I
 Today it's all about **TRAVERSAL**. See:<br>
 [144. Binary Tree Preorder Traversal
 ](https://leetcode.com/problems/binary-tree-preorder-traversal/)<br>

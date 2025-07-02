@@ -1,4 +1,3 @@
-# Day 11 Stack & Queue II
 
 ## [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 ```python

@@ -1,4 +1,3 @@
-# Day 2 Array II
 ## [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 We can use sliding window technique for this question because it is about subarray (**contiguous sequence**) and requests **minimum length** as the return value.
 ```python
@@ -17,7 +16,7 @@ class Solution:
         
         return ans if ans <= len(nums) else 0
 ```
-Here, I set `ans` to a value larger than any possible valid subarray length (`float('inf')` also works).This ganrantees the first valid subarray found will be smaller than the initial value, so the `min()` function will correctly update it. Using a sliding window, **I move the right pointer to expand the window and the left pointer to contract it**, always keeping track of the smallest window whose sum meets or exceeds the target.
+Here, I set `ans` to a value larger than any possible valid subarray length (`float('inf')` also works).This guarantees the first valid subarray found will be smaller than the initial value, so the `min()` function will correctly update it. Using a sliding window, **I move the right pointer to expand the window and the left pointer to contract it**, always keeping track of the smallest window whose sum meets or exceeds the target.
 
 ## [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
 ```python
